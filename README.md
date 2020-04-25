@@ -1,5 +1,5 @@
 # Project Name
-## by Group Name
+## by Team EvilChaos
 ### For BL-MSCH-C220 at Indiana University, Bloomington
 ### April 29, 2020
 
