@@ -7,7 +7,7 @@ margin_left = -29.0
 margin_top = -21.0
 margin_right = 1050.0
 margin_bottom = 794.0
-color = Color( 0, 0, 0, 1 )
+color = Color( 0.184314, 0.270588, 0.392157, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -17,7 +17,10 @@ margin_left = 0.998352
 margin_top = 89.8512
 margin_right = 1025.0
 margin_bottom = 560.851
-text = "Game Over"
+text = "Game Over!
+
+Remember, wash your hands, stay inside, and social distance!
+Stay safe!"
 align = 1
 valign = 1
 __meta__ = {

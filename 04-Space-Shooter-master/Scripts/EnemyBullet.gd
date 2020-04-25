@@ -4,6 +4,7 @@ export var speed = 500
 export var damage = 10
 onready var Explosion = load("res://Scenes/Explosion.tscn")
 onready var Player = get_node("/root/Game/Player")
+onready var Shield = get_node("/root/Game/Shield")
 
 func _ready():
 	contact_monitor = true
@@ -18,6 +19,8 @@ func _physics_process(delta):
 		get_node("/root/Game/Explosions").add_child(explosion)
 		if c.name == "Player":
 			Player.change_health(-damage)
+		if c.name == "Shield":
+			Shield.get_child(0).change_health(-damage)
 		queue_free()
 
 	if position.y > get_viewport_rect().size.y + 10:
