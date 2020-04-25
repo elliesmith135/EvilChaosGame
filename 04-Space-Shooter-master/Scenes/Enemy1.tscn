@@ -4,7 +4,7 @@
 [ext_resource path="res://Sprites/enemy_1.png" type="Texture" id=2]
 
 [node name="Enemy1" type="KinematicBody2D"]
-position = Vector2( 0, -100 )
+position = Vector2( 1.02669, -83.0597 )
 collision_layer = 8
 collision_mask = 0
 script = ExtResource( 1 )

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/SpeedUp.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/bullet_g.png" type="Texture" id=2]
+
+[node name="SpeedUp" type="RigidBody2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 3.5, 1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2( 3.5, 1 )
+polygon = PoolVector2Array( 4.5, 16.5, -4.5, 16.5, -4.5, -16.5, 4.5, -16.5 )
