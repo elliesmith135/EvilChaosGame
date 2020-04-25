@@ -19,6 +19,11 @@ config/name="SHOOTY SHOOTY"
 run/main_scene="res://Scenes/Game.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=3840
+window/size/height=2164
+
 [input]
 
 Left={
