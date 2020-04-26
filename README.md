@@ -17,7 +17,7 @@ This is the objective of the game: Shoot as many infected people as you can with
 
 This is how the game is played: WASD to move, space/LMB to shoot.
 
-Future plans:
+Future plans: We will let it die.
 
 ---
 
@@ -28,5 +28,5 @@ Future plans:
   * Shannon Master
     * Sound
   * Temmie Hileman
-    * Art
+    * Art and base code
 
