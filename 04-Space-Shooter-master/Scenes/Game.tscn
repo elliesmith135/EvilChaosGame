@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://Sprites/stars.png" type="Texture" id=1]
+[ext_resource path="res://fuuuuuuuuuuuuuuuuuuuuuuuuuuuuutz.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Bullets.gd" type="Script" id=2]
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=3]
 [ext_resource path="res://Player.png" type="Texture" id=4]
@@ -16,7 +16,7 @@
 
 [node name="Sprite" type="Sprite" parent="Background"]
 position = Vector2( -66.7996, -74.2184 )
-scale = Vector2( 0.712955, 0.567808 )
+scale = Vector2( 1.87802, 1.45121 )
 texture = ExtResource( 1 )
 centered = false
 
@@ -48,12 +48,10 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="Player"]
-scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 4 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player"]
-scale = Vector2( 0.3, 0.3 )
-polygon = PoolVector2Array( 17, -74.9, 17, -72.8, 19.8, -70, 21.5, -71.4, 24, -70.3, 24, -68.5, 26.2, -64, 27.6, -64, 32.3, -60.8, 31.5, -58, 30.9, -58, 29.9, -38, 27.8, -38, 19.6, -29.8, 26, -26.2, 26, 8.9, 29, 10.9, 29, 23, 26.5, 23, 23.1, 24.3, 25.6, 34, 23.9, 34, 22.1, 61, 24.4, 61, 28, 70, 0, 70, -26, 72.2, -26, 69.5, -29.2, 63, -25.4, 63, -22, 61.6, -22, 35.2, -26, 33.2, -26, 25.4, -24.5, 23, -28.7, 23, -31.4, 7, -29.9, 7, -28.9, -6, -27.1, -6, -26, -7.7, -26, -27, -23.7, -27, -20.5, -29.7, -30, -39.2, -30, -56.2, -32.4, -58.5, -31.3, -61, -29.9, -61, -16.9, -75, -5, -75, 15.2, -75 )
+polygon = PoolVector2Array( 17, -74.9, 17, -72.8, 19.8, -70, 21.5, -71.4, 24, -70.3, 24, -68.5, 26.2, -64, 27.6, -64, 32.3, -60.8, 31.5, -58, 30.9, -58, 29.9, -38, 27.8, -38, 19.6, -29.8, 26, -26.2, 26, 8.9, 29, 10.9, 29, 23, 26.5, 23, 23.1, 24.3, 25.6, 34, 23.9, 34, 22.1, 61, 24.4, 61, 28, 70, 0, 70, -26, 72.2, -26, 69.5, -29.2, 63, -25.4, 63, -22, 61.6, -22, 35.2, -26, 33.2, -26, 25.4, -24.5, 23, -28.7, 23, -31.4, 7, -29.9, 7, -28.9, -6, -27.1, -6, -26, -7.6, -26, -27, -23.7, -27, -20.5, -29.7, -30, -39.2, -30, -56.2, -32.4, -58.5, -31.3, -61, -29.9, -61, -16.9, -75, -5, -75, 15.2, -75 )
 
 [node name="Meteors" type="Node2D" parent="."]
 editor/display_folded = true
