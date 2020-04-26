@@ -4,16 +4,16 @@
 [ext_resource path="res://sheildymask.png" type="Texture" id=2]
 
 [node name="Shield" type="KinematicBody2D"]
-position = Vector2( 1.16635, -101.473 )
+position = Vector2( -2.72971, -235.886 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 1.2, 0.2 )
+scale = Vector2( 2, 1 )
 texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-scale = Vector2( 1.2, 0.2 )
+scale = Vector2( 2, 1 )
 polygon = PoolVector2Array( 57, 10, -57, 10, -57, -10, 57, -10 )

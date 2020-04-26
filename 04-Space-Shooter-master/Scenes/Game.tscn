@@ -24,6 +24,7 @@ orbit_velocity_random = 0.0
 [node name="Game" type="Node2D"]
 
 [node name="Background" type="Node2D" parent="."]
+editor/display_folded = true
 
 [node name="Sprite" type="Sprite" parent="Background"]
 position = Vector2( -66.7996, -74.2184 )
@@ -42,6 +43,7 @@ one_shot = true
 [node name="Enemy Bullets" type="Node2D" parent="."]
 
 [node name="Player" type="KinematicBody2D" parent="."]
+editor/display_folded = true
 position = Vector2( 545, 684 )
 script = ExtResource( 3 )
 __meta__ = {
@@ -49,21 +51,23 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="Player"]
+scale = Vector2( 0.8, 0.8 )
 texture = ExtResource( 4 )
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player"]
-polygon = PoolVector2Array( 17, -74.9, 17, -72.8, 19.8, -70, 21.5, -71.4, 24, -70.3, 24, -68.5, 26.2, -64, 27.6, -64, 32.3, -60.8, 31.5, -58, 30.9, -58, 29.9, -38, 27.8, -38, 19.6, -29.8, 26, -26.2, 26, 8.9, 29, 10.9, 29, 23, 26.5, 23, 23.1, 24.3, 25.6, 34, 23.9, 34, 22.1, 61, 24.4, 61, 28, 70, 0, 70, -26, 72.2, -26, 69.5, -29.2, 63, -25.4, 63, -22, 61.6, -22, 35.2, -26, 33.2, -26, 25.4, -24.5, 23, -28.7, 23, -31.4, 7, -29.9, 7, -28.9, -6, -27.1, -6, -26, -7.6, -26, -27, -23.7, -27, -20.5, -29.7, -30, -39.2, -30, -56.2, -32.4, -58.5, -31.3, -61, -29.9, -61, -16.9, -75, -5, -75, 15.2, -75 )
 
 [node name="spray" type="Particles2D" parent="Player"]
 show_behind_parent = true
 position = Vector2( -23, -2 )
 rotation = 4.71239
-emitting = false
-amount = 20
-one_shot = true
+amount = 30
+lifetime = 2.0
 speed_scale = 3.0
 explosiveness = 1.0
+local_coords = false
 process_material = SubResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Player"]
+scale = Vector2( 0.8, 0.8 )
+polygon = PoolVector2Array( 17, -74.9, 17, -72.8, 19.8, -70, 21.5, -71.4, 24, -70.3, 24, -68.5, 26.2, -64, 27.6, -64, 32.3, -60.8, 31.5, -58, 30.9, -58, 29.9, -38, 27.8, -38, 19.6, -29.8, 26, -26.2, 26, 8.9, 29, 10.9, 29, 23, 26.5, 23, 23.1, 24.3, 25.6, 34, 23.9, 34, 22.1, 61, 24.4, 61, 28, 70, 0, 70, -26, 72.2, -26, 69.5, -29.2, 63, -25.4, 63, -22, 61.6, -22, 35.2, -26, 33.2, -26, 25.4, -24.5, 23, -28.7, 23, -31.4, 7, -29.9, 7, -28.9, -6, -27.1, -6, -26, -7.6, -26, -27, -23.7, -27, -20.5, -29.7, -30, -39.2, -30, -56.2, -32.4, -58.5, -31.3, -61, -29.9, -61, -16.9, -75, -5, -75, 15.2, -75 )
 
 [node name="Meteors" type="Node2D" parent="."]
 editor/display_folded = true
@@ -125,10 +129,10 @@ autoplay = true
 
 [node name="Music loop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
+autoplay = true
 
 [node name="Music timer" type="Timer" parent="."]
 wait_time = 10.0
-one_shot = true
 autostart = true
 [connection signal="timeout" from="Bullets/Timer" to="Bullets" method="_on_Timer_timeout"]
 [connection signal="health_changed" from="Player" to="HUD" method="_on_Player_health_changed"]
