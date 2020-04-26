@@ -41,6 +41,8 @@ func _physics_process(delta):
 		var b = Bullet_R.instance()
 		b.position = position
 		b.position.y -= 25
+		$spray.emitting = true
+		$Timer.start()
 		get_node("/root/Game/Bullets").fire(b)
 
 	if Input.is_action_pressed("Left"):
@@ -75,3 +77,7 @@ func _on_Music_timer_timeout():
 
 
 
+
+
+func _on_Timer_timeout():
+	$spray.emmiting = false
