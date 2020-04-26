@@ -12,7 +12,7 @@ When we considered the theme of Corona, we thought about it this way: What if we
 These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles, making sections of the background to make a whole background.
 
 These are the technologies and resources we used: Piskel, Godot Engine, Audacity, Reason, Freesound.
-https://freesound.org/s/266019/
+https://freesound.org/s/266019/ (This sound was edited into two separate sound effects.)
 https://freesound.org/s/383785/
 
 This is the objective of the game: Shoot as many infected people as you can with Lysol to avoid getting COVID-19.
