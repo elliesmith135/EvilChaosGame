@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scripts/EnemyBullet.gd" type="Script" id=1]
-[ext_resource path="res://Sprites/bullet_e.png" type="Texture" id=2]
+[ext_resource path="res://papa corona.png" type="Texture" id=2]
 
 [node name="EnemyBullet" type="RigidBody2D"]
 collision_layer = 5
@@ -13,10 +13,10 @@ __meta__ = {
 
 [node name="Sprite" type="Sprite" parent="."]
 rotation = 3.14159
-scale = Vector2( 0.5, 0.5 )
+scale = Vector2( 0.2, 0.2 )
 texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 rotation = 3.14159
 scale = Vector2( 0.5, 0.5 )
-polygon = PoolVector2Array( 4.5, 16.5, -4.5, 16.5, -4.5, -16.5, 4.5, -16.5 )
+polygon = PoolVector2Array( -9.1, -38.8, -1, -42, -1, -39.2, -0.0999985, -38.8, 8, -42, 8, -39.1, 16, -42, 16, -38.7, 17, -37.1, 22, -38.8, 22, -35.7, 25, -31.1, 30, -32.8, 30, -29.4, 30.7, -26, 32, -26, 41, -14.7, 41, -10.7, 38.6, -3.5, 42, 5, 39.1, 5, 42, 13, 38.7, 13, 37.1, 14, 38.8, 19, 35.7, 19, 31.1, 22.8, 33.2, 27, 29.4, 27, 26, 27.7, 26, 29, 14.7, 38, 9.9, 38, 8.5, 35.9, 7.1, 38, 2.3, 38, -0.400002, 36, -8, 39, -8, 36.1, -16, 39, -16, 36.1, -30, 28.2, -30, 26.7, -38, 17.8, -38, 14.8, -41, 11.8, -41, 6.9, -38.3, 5.1, -41.3, 0, -40.2, -2, -39.2, -2, -38.8, -2.9, -41.4, -16, -38.6, -16, -37.1, -17, -38.8, -22, -35.6, -22, -31, -25.1, -29.6, -32, -25.6, -32, -16, -39, -16, -42.2 )

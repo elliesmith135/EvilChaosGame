@@ -67,3 +67,9 @@ func _physics_process(delta):
 		position.y = VP.y - margin
 
 	var collision = move_and_collide(velocity)
+
+
+#music loop start
+onready var music = get_node("Music loop")
+func _on_Music_timer_timeout():
+	music.play(0)
