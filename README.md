@@ -9,7 +9,7 @@ This game was developed as a final project for C220 as part of a 48-hour game ja
 
 When we considered the theme of corona, we thought about it this way: what if we turned social distancing into a space shooter?
 
-These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles
+These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles, making sections of the background to make a whole background
 
 These are the technologies and resources we used: piskel, godot engine, audacity, reason
 
