@@ -7,15 +7,15 @@
 
 This game was developed as a final project for C220 as part of a 48-hour game jam. 
 
-When we considered the theme of corona, we thought about it this way: what if we turned social distancing into a space shooter?
+When we considered the theme of Corona, we thought about it this way: What if we turned social distancing into a space shooter?
 
-These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles, making sections of the background to make a whole background
+These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles, making sections of the background to make a whole background.
 
-These are the technologies and resources we used: piskel, godot engine, audacity, reason
+These are the technologies and resources we used: Piskel, Godot Engine, Audacity, Reason.
 
-This is the objective of the game: shoot as many infected people as you can with lysol before getting the corona virus
+This is the objective of the game: Shoot as many infected people as you can with Lysol to avoid getting COVID-19.
 
-This is how the game is played: WASD to move, space/LMB to shoot
+This is how the game is played: WASD to move, space/LMB to shoot.
 
 Future plans:
 
@@ -23,10 +23,10 @@ Future plans:
 
 ###Team Members
 
-  * Steven
-    * code
-  * Shannon
-    * sound
-  * Temmie
-    * art
+  * Steven Wren
+    * Code
+  * Shannon Master
+    * Sound
+  * Temmie Hileman
+    * Art
 
