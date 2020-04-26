@@ -19,16 +19,16 @@ This is the objective of the game: Shoot as many infected people as you can with
 
 This is how the game is played: WASD to move, space/LMB to shoot.
 
-Future plans: We will let it die.
+Future plans: We will let it die aljng with COVID-19.
 
 ---
 
 ###Team Members
 
   * Steven Wren
-    * Code
+    * Power-up implementation, bug fixing
   * Shannon Master
-    * Sound
+    * Sound assets, sound implementation
   * Temmie Hileman
-    * Art and base code
+    * Art assets, art implementation, base code
 
