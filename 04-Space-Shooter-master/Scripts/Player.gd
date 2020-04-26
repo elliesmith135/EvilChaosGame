@@ -73,3 +73,6 @@ func _physics_process(delta):
 onready var music = get_node("Music loop")
 func _on_Music_timer_timeout():
 	music.play(0)
+
+
+

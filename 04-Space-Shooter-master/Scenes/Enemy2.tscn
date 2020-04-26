@@ -1,7 +1,20 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/Enemy.gd" type="Script" id=1]
 [ext_resource path="res://baldIdon'tcareguy.png" type="Texture" id=2]
+[ext_resource path="res://papa corona.png" type="Texture" id=3]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 1
+emission_sphere_radius = 28.95
+flag_disable_z = true
+gravity = Vector3( 0, 0, 0 )
+angular_velocity = 91.03
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+radial_accel = 22.99
+scale = 0.25
+color = Color( 0.996078, 0.337255, 0.337255, 1 )
 
 [node name="Enemy2" type="KinematicBody2D"]
 position = Vector2( -1, -85 )
@@ -23,4 +36,10 @@ autostart = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PoolVector2Array( 10, -57.9, 10, -55.9, 21, -46.9, 21, -44, 23.3, -29, 21.7, -29, 20.6, -24, 18.8, -24, 12.5, -17.7, 15, -16.1, 15, 16.8, 17, 17.8, 17, 22.8, 13, 26.8, 13, 54.2, 16.4, 57.5, 15.3, 60, -16, 60, -16, 55.9, -13, 53.9, -13, 28, -18, 17, -15.9, 17, -14.9, -17, -13.1, -17, -22, -27.2, -22, -31, -23.2, -43, -21.7, -43, -20.6, -48, -18.9, -48, -10.9, -57, -8.3, -57, -7, -57.4, -7, -59.2 )
+
+[node name="Particles2D" type="Particles2D" parent="."]
+amount = 12
+local_coords = false
+process_material = SubResource( 1 )
+texture = ExtResource( 3 )
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
