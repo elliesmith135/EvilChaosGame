@@ -15,11 +15,11 @@ These are the technologies and resources we used: Piskel, Godot Engine, Audacity
 https://freesound.org/s/266019/ (This sound was edited into two separate sound effects.)
 https://freesound.org/s/383785/
 
-This is the objective of the game: Shoot as many infected people as you can with Lysol to avoid getting COVID-19.
+This is the objective of the game: Shoot as many infected people as you can with Lysol to avoid getting COVID-19. Drink coffee to increase your speed and grab masks to shield yourself.
 
-This is how the game is played: WASD to move, space/LMB to shoot.
+This is how the game is played: Use WASD to move, use space/left mouse buttion to shoot.
 
-Future plans: We will let it die aljng with COVID-19.
+Future plans: We will let it die along with COVID-19.
 
 ---
 
