@@ -17,7 +17,6 @@ flag_disable_z = true
 spread = 78.1
 gravity = Vector3( 0, 0, 0 )
 initial_velocity = 11.49
-angular_velocity = 0.0
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
 
@@ -33,10 +32,10 @@ centered = false
 
 [node name="ColorRect" type="ColorRect" parent="Background"]
 margin_left = 0.949951
-margin_top = -2.84998
+margin_top = -4.04746
 margin_right = 1023.95
-margin_bottom = 767.15
-color = Color( 0, 0, 0, 0.501961 )
+margin_bottom = 765.953
+color = Color( 0.698039, 0.698039, 0.698039, 0.501961 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
