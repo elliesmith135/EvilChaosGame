@@ -9,7 +9,7 @@ This game was developed as a final project for C220 as part of a 48-hour game ja
 
 When we considered the theme of Corona, we thought about it this way: What if we turned social distancing into a space shooter?
 
-These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles, making sections of the background to make a whole background.
+These are the struggles and surprises we encountered as we developed it: Power ups, proper looking assets, implementing sound, visibility of the bullets, implementing particles, making sections of the background to make a whole background, we weren't able to get the power up sounds to work even though we spent hours on it.
 
 These are the technologies and resources we used: Piskel, Godot Engine, Audacity, Reason, Freesound.
 https://freesound.org/s/266019/ (This sound was edited into two separate sound effects.)
