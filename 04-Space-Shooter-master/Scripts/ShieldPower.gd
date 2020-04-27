@@ -17,7 +17,6 @@ func _physics_process(delta):
 		var shield = Shield.instance()
 		shield.position = position
 		if c.name == "Player":
-			collect.play(0)
 			get_node("/root/Game/Shield").add_child(shield)
 		queue_free()
 		
