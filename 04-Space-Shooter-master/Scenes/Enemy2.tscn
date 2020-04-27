@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scripts/Enemy.gd" type="Script" id=1]
 [ext_resource path="res://baldIdon'tcareguy.png" type="Texture" id=2]
 [ext_resource path="res://papa corona.png" type="Texture" id=3]
+[ext_resource path="res://Assets/enemy attack2.wav" type="AudioStream" id=4]
 
 [sub_resource type="ParticlesMaterial" id=1]
 emission_shape = 1
@@ -42,4 +43,7 @@ amount = 10
 local_coords = false
 process_material = SubResource( 1 )
 texture = ExtResource( 3 )
+
+[node name="Potato" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

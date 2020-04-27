@@ -101,11 +101,12 @@ __meta__ = {
 
 [node name="Intro Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
-volume_db = -20.194
+volume_db = -55.534
 autoplay = true
 
 [node name="Music loop" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
+volume_db = -64.621
 autoplay = true
 
 [node name="Music timer" type="Timer" parent="."]

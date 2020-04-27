@@ -7,7 +7,7 @@ export var move_probability = 0.5
 export var fire_probability = 0.5
 
 onready var EnemyBullet = load("res://Scenes/EnemyBullet.tscn")
-
+onready var ASU = get_node("Potato")
 
 var ready = false
 
@@ -43,4 +43,5 @@ func _on_Timer_timeout():
 		b.position = position
 		b.position.y += 25
 		get_node("/root/Game/Enemy Bullets").add_child(b)
+		ASU.play(0)
 		
