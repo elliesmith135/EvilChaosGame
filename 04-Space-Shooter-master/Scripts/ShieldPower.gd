@@ -17,13 +17,16 @@ func _physics_process(delta):
 		var shield = Shield.instance()
 		shield.position = position
 		if c.name == "Player":
-			collect.play(0)
 			get_node("/root/Game/Shield").add_child(shield)
+			#collect.play(0)
+			#$Timer.start()
 		queue_free()
-		
 	if position.y > get_viewport_rect().size.y + 50:
 		queue_free()
 
 func _integrate_forces(state):
 	#state.set_linear_velocity(velocity)
 	pass
+
+#func _on_Timer_timeout():
+#	queue_free()
