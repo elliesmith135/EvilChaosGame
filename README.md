@@ -1,4 +1,4 @@
-# SHOOTY SHOOTY
+# Corona Boi
 ## by Team EvilChaos
 ### For BL-MSCH-C220 at Indiana University, Bloomington
 ### April 29, 2020
