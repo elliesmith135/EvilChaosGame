@@ -44,6 +44,7 @@ local_coords = false
 process_material = SubResource( 1 )
 texture = ExtResource( 3 )
 
-[node name="Potato" type="AudioStreamPlayer" parent="."]
+[node name="Attack" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
+volume_db = -20.0
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

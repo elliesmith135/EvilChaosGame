@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/SpeedUp.gd" type="Script" id=1]
 [ext_resource path="res://Coffee.png" type="Texture" id=2]
+[ext_resource path="res://Assets/powerups.wav" type="AudioStream" id=3]
 
 [node name="SpeedUp" type="RigidBody2D"]
 position = Vector2( 3.05176e-005, -3.1579 )
@@ -19,3 +20,7 @@ __meta__ = {
 position = Vector2( -0.000282288, -18.4211 )
 scale = Vector2( 0.8, 0.8 )
 polygon = PoolVector2Array( 24.5, -37.5, 24.5, -35, 27.7, -28.5, 24.6, -28.5, 21.3, -23.2, 25.7, -14.5, 22.2, -14.5, 15.3, -9, 34.5, 4.5, 34.5, 7.1, 38, 23.5, 36, 23.5, 34, 30.5, 32.5, 30.5, 25.5, 39.5, 19.5, 39.5, -20.5, 40.5, -20.5, 38.9, -26.5, 36.9, -26.5, -4.8, -17.5, -8.7, -24.5, -15.7, -24.5, -23.2, -18.5, -31.2, -18.5, -32.7, -21.5, -35.7, -21.5, -39.7, -19.9, -40.5, -9.5, -40.5, -9.5, -39.2, -6.5, -35.2, -6.5, -28.7, -10.5, -24.7, -10.5, -19.5, -9.7, -18.5, -7.4, -18.5, -0.5, -26.2, -0.5, -31.2, -3.6, -40.5, 8.7, -40.5, 12.5, -31, 12.5, -40.5, 14.9, -40.5, 20.5, -40.5 )
+
+[node name="collect" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -15.0

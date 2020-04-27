@@ -7,7 +7,7 @@ export var move_probability = 0.5
 export var fire_probability = 0.5
 
 onready var EnemyBullet = load("res://Scenes/EnemyBullet.tscn")
-onready var ASU = get_node("Potato")
+onready var ASU = get_node("Attack")
 
 var ready = false
 

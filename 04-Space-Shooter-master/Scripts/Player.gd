@@ -11,6 +11,8 @@ var velocity = Vector2(0,0)
 onready var VP = get_viewport_rect().size
 onready var Bullet_R = load("res://Scenes/Bullet_R.tscn")
 
+onready var spray = get_node("Attack")
+
 signal health_changed
 signal score_changed
 
@@ -38,6 +40,7 @@ func die():
 
 func _physics_process(delta):
 	if Input.is_action_pressed("Fire"):
+		spray.play(0)
 		var b = Bullet_R.instance()
 		b.position = position
 		b.position.y -= 25
@@ -66,15 +69,4 @@ func _physics_process(delta):
 		position.y = VP.y - margin
 
 	var collision = move_and_collide(velocity)
-
-
-#music loop start
-onready var music = get_node("Music loop")
-func _on_Music_timer_timeout():
-	music.play(0)
-
-
-
-
-
 

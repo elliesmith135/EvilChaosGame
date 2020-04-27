@@ -2,6 +2,7 @@ extends RigidBody2D
 
 var velocity = Vector2(0,0)
 export var speed = 50
+onready var collect = get_node("collect")
 
 func _ready():
 	velocity.y = speed
@@ -13,6 +14,7 @@ func _physics_process(delta):
 	var colliding = get_colliding_bodies()
 	for c in colliding:
 		if c.name == "Player":
+			collect.play(0)
 			c.change_acceleration(0.1)
 		queue_free()
 		

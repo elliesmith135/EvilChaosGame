@@ -3,6 +3,7 @@ extends RigidBody2D
 onready var Shield = load("res://Scenes/Shield.tscn")
 var velocity = Vector2(0,0)
 export var speed = 60
+onready var collect = get_node("collect")
 
 func _ready():
 	velocity.y = speed
@@ -16,6 +17,7 @@ func _physics_process(delta):
 		var shield = Shield.instance()
 		shield.position = position
 		if c.name == "Player":
+			collect.play(0)
 			get_node("/root/Game/Shield").add_child(shield)
 		queue_free()
 		
