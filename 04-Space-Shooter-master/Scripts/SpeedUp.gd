@@ -14,13 +14,16 @@ func _physics_process(delta):
 	var colliding = get_colliding_bodies()
 	for c in colliding:
 		if c.name == "Player":
-			collect.play(0)
 			c.change_acceleration(0.1)
+			#collect.play(0)
+			#$Timer.start()
 		queue_free()
-		
 	if position.y > get_viewport_rect().size.y + 50:
 		queue_free()
 
 func _integrate_forces(state):
 	#state.set_linear_velocity(velocity)
 	pass
+
+#func _on_Timer_timeout():
+#	queue_free()

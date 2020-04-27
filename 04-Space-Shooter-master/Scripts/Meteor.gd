@@ -7,9 +7,11 @@ export var damage = 50
 
 onready var Explosion = load("res://Scenes/Explosion.tscn")
 
+onready var cough = get_node("Cough")
 
 func _ready():
 	randomize()
+	cough.play(0)
 	position.x = randi() % int(get_viewport_rect().size.x)
 	velocity.y = max(randi() % max_speed, min_speed)
 	contact_monitor = true
