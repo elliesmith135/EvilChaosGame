@@ -1,47 +1,57 @@
-Name:
-Date:
+Name: Ellie Smith
+Date: May 2 2020
 
-Project: 
-Group's repository: 
+Project: Evil Chaos
+Group's repository: anhilema
 
 
 
 What is something you learned by reviewing this group's project?
+I learned how to make graphics and incorporate them in a game setting.
 
  
 
 In what ways does this game reflect the theme?
+It reflects the theme becuase the concept is killing the corona virus zombies.
 
  
 
 What is something you saw in this group's project that you would like to apply to your own future games?
+I would like to apply the use of graphics and the overall setting of their game.  They did a good job with the colors and graphics.
 
  
 
 What suggestions would you have for this group to improve the game?
+Not much, maybe a little cleaner will all the explosions so the player does not get confused.
 
  
 
 Was there anything in the GDScript that was confusing to you? If so, what?
+No.
 
  
 
-Is it clear that every group member participated?
+Is it clear that every group member participated?.
+Yes, it was clearly laid out in the readme
 
  
 
 Does the repository contain an appropriate LICENSE?
+Yes. 
 
  
 
 What is something the group could add to the README.md to make it more descriptive?
+No.
 
  
 
 Pay a compliment to the group based on the quality of the game.
+The game was very detailed and ran very smoothly.  Loved the concept!
 
 
 
 How many of your points would you allocate to this project?
+5
 
 
